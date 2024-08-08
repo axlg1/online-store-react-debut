@@ -1,0 +1,192 @@
+/* App.css */
+
+/* Styles for the entire app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Couleur de fond */
+}
+
+.App {
+  padding: 20px;
+}
+
+/* Styles for the product list */
+.ProductList {
+  margin-bottom: 20px;
+}
+
+.ProductList h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.filters select {
+  margin-right: 10px;
+}
+
+.filters button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff; /* Couleur du bouton */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 200px; /* Largeur de chaque article */
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  margin-bottom: 5px;
+}
+
+.product button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #28a745; /* Couleur du bouton */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #218838;
+}
+
+/* Styles for the product details */
+.ProductDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProductDetails img {
+  margin-bottom: 20px;
+}
+
+.ProductDetails h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ProductDetails p {
+  margin-bottom: 10px;
+}
+
+.ProductDetails button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Couleur du bouton */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ProductDetails button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the cart */
+.Cart {
+  margin-bottom: 20px;
+}
+
+.Cart h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Cart p {
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-item {
+  width: 200px; /* Largeur de chaque élément du panier */
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.cart-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cart-item p {
+  margin-bottom: 5px;
+}
+
+.cart-item button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #dc3545; /* Couleur du bouton */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #bd2130;
+}
+
+/* App.css */
+
+/* Styles for the entire app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e688a; /* Couleur de fond métallique bleue */
+}
+
+/* Les autres styles restent inchangés */
